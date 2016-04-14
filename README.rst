@@ -5,9 +5,9 @@ cookiecutter-pypackage
 .. image:: https://img.shields.io/travis/audreyr/cookiecutter-pypackage.svg
    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
 
-Cookiecutter_ template for a Python package.
+Cookiecutter_ template for a Quali CloudsShell Shell package.
 
-* GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
+* GitHub repo: https://github.com/QualiSystems/cookiecutter-shellpackage
 * Free software: BSD license
 
 Features
@@ -25,9 +25,9 @@ Features
 Quickstart
 ----------
 
-Generate a Python package project::
+Generate a Shell package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/QualiSystems/cookiecutter-shellpackage.git
 
 Then:
 
