@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShellsConfiguration 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://schemas.qualisystems.com/ResourceManagement/ShellsConfigurationSchema.xsd">
+<ResourceTemplates>
+<!-- -->
+    <ResourceTemplate Name="Template Name" Model="Template Name" Driver="Driver Name">
+        <Description>Template description</Description>
+        <AutoLoad Enable="true">
+            <Description>Autoload description</Description>
+        </AutoLoad>
+        <Attributes>
+			<!-- Attributes to be displayed on autodiscovery-->
+            <Attribute Name="User" Value="" />
+        </Attributes>
+    </ResourceTemplate>
+</ResourceTemplates>
+</ShellsConfiguration>

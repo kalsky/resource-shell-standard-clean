@@ -1,0 +1,7 @@
+<Driver Description="Driver description" MainClass="Driver" Name="Driver Name" Version="1.0.0">
+    <Layout>
+        <Category Name="Driver Category">
+            <Command Description="" DisplayName="Do Some" Name="do_some" />
+        </Category>
+    </Layout>
+</Driver>
