@@ -57,7 +57,3 @@ docs/_build/
 
 # PyBuilder
 target/
-
-# Cookiecutter
-output/
-boilerplate/
