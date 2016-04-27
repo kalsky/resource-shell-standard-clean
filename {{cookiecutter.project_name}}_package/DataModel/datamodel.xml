@@ -4,7 +4,7 @@
   <ns0:ResourceFamilies>
   </ns0:ResourceFamilies>
   <ns0:ScriptDescriptors>
-    <ns0:ScriptDescriptor Alias="{{cookiecutter.project_name}" Name="{{cookiecutter.project_name}" Version="1.0.0">
+    <ns0:ScriptDescriptor Alias="{{cookiecutter.project_name}}" Name="{{cookiecutter.project_name}}" Version="1.0.0">
       <ns0:ScriptInputs />
     </ns0:ScriptDescriptor>
   </ns0:ScriptDescriptors>
