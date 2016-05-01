@@ -1,5 +1,7 @@
 ###Cookiecutter CloudShell Shell template
 
+Creates new CloudShell shell using CookieCutter based on this template
+
 Usage 
 
 ```batch
@@ -7,8 +9,3 @@ Usage
 > cookiecutter https://github.com/QualiSystems/cookiecutter-shellpackage.git
 ```
 
-Credits
----------
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
