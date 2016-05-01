@@ -2,18 +2,15 @@
 # -*- coding: utf-8 -*-
 
 """
-test_{{ cookiecutter.project_slug }}
-----------------------------------
-
-Tests for `{{ cookiecutter.project_slug }}` module.
+Tests for `{{ cookiecutter.project_camel_name }}Driver` 
 """
 
 import unittest
 
-from {{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}
+from driver import {{cookiecutter.project_camel_name}}Driver
 
 
-class Test{{ cookiecutter.project_slug|capitalize }}(unittest.TestCase):
+class Test{{ cookiecutter.project_camel_name }}Driver(unittest.TestCase):
 
     def setUp(self):
         pass
