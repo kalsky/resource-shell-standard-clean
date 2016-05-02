@@ -6,6 +6,6 @@ Usage
 
 ```batch
 > pip install shellfoundry
-> cookiecutter https://github.com/QualiSystems/shellfoundry-template.git
+> shellfoundry gh:QualiSystems/shellfoundry-template.git
 ```
 
