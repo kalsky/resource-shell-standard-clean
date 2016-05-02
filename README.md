@@ -1,11 +1,11 @@
-###Cookiecutter CloudShell Shell template
+###CloudShell Shell template
 
-Creates new CloudShell shell using CookieCutter based on this template
+Creates new CloudShell shell using shellfoundry based on this template
 
 Usage 
 
 ```batch
-> pip install cookiecutter
-> cookiecutter https://github.com/QualiSystems/cookiecutter-shellpackage.git
+> pip install shellfoundry
+> cookiecutter https://github.com/QualiSystems/shellfoundry-template.git
 ```
 
