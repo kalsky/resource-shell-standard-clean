@@ -6,6 +6,6 @@ Usage
 
 ```batch
 > pip install shellfoundry
-> shellfoundry gh:QualiSystems/shellfoundry-template.git
+> shellfoundry gh:QualiSystems/shellfoundry-template
 ```
 
