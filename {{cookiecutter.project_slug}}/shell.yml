@@ -1,0 +1,6 @@
+shell:
+    name: {{project_name}}
+    author: {{full_name}}
+    email: {{email}}
+    description: {{project_short_description}}
+    version: {{version}}
