@@ -1,6 +1,6 @@
 shell:
-    name: {{project_name}}
-    author: {{full_name}}
-    email: {{email}}
-    description: {{project_short_description}}
-    version: {{version}}
+    name: {{cookiecutter.project_name}}
+    author: {{cookiecutter.full_name}}
+    email: {{cookiecutter.email}}
+    description: {{cookiecutter.project_short_description}}
+    version: {{cookiecutter.version}}
