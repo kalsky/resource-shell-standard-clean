@@ -1,11 +1,3 @@
-###CloudShell Shell template
+###Base template for creating CloudShell shell
 
-Creates new CloudShell shell using shellfoundry based on this template
-
-Usage 
-
-```batch
-> pip install shellfoundry
-> shellfoundry gh:QualiSystems/shellfoundry-template
-```
-
+For detailed documentation please refer to the documentation of [shellfoundry](https://github.com/QualiSystems/shellfoundry)
