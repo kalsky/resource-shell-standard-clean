@@ -26,9 +26,7 @@
  may be a path to a directory, in which case all the files and folders under the directory are added into the driver's zip file.
  if the <sources> element is not specified, all the files under the project are added to the driver's zip file -->
             <sources>
-                 <source>src/drivermetadata.xml</source>
-                 <source>src/driver.py</source>
-                 <source>src/requirements.txt</source>
+                 <source>src</source>
             </sources>
             <!-- the driver name of the driver to update -->
             <targetName>{{cookiecutter.project_pascal_name}}Driver</targetName>

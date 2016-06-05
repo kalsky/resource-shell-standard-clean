@@ -10,11 +10,10 @@ class {{cookiecutter.project_pascal_name}}Driver (ResourceDriverInterface):
         """
         ctor must be without arguments, it is created with reflection at run time
         """
-       pass
+        pass
 
     def initialize(self, context):
         pass
 
     def method_one(self, context, request):
-		pass
-
+        pass
