@@ -26,9 +26,9 @@
  may be a path to a directory, in which case all the files and folders under the directory are added into the driver's zip file.
  if the <sources> element is not specified, all the files under the project are added to the driver's zip file -->
             <sources>
-                 <source>{{cookiecutter.project_slug}}/drivermetadata.xml</source>
-                 <source>{{cookiecutter.project_slug}}/driver.py</source>
-                 <source>{{cookiecutter.project_slug}}/requirements.txt</source>
+                 <source>src/drivermetadata.xml</source>
+                 <source>src/driver.py</source>
+                 <source>src/requirements.txt</source>
             </sources>
             <!-- the driver name of the driver to update -->
             <targetName>{{cookiecutter.project_pascal_name}}Driver</targetName>
@@ -36,17 +36,20 @@
     </drivers>
 
     <!-- The scripts to update, holds one or more scripts -->
-    <scripts>
-        <script>
-            <!-- A list of paths to the script's files or folders relative to the project's root.
+    <!-- A list of paths to the script's files or folders relative to the project's root.
  if the <sources> element is not specified, all the files under the project are added to the script's zip file.
  if only one file is specified, the file will not be compressed into a zip file.
  -->
+    <!--
+    <scripts>
+
+        <script>
+
             <sources>
                 <source>script1.py</source>
             </sources>
-             <!-- the script name of the script to update -->
             <targetName>scriptToUpdate</targetName>
         </script>
     </scripts>
+        -->
 </properties>
