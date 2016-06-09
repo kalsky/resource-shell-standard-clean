@@ -1,7 +1,7 @@
 from cloudshell.shell.core.resource_driver_interface import ResourceDriverInterface
 
 
-class {{cookiecutter.project_pascal_name}}Driver (ResourceDriverInterface):
+class {{cookiecutter.driver_name}} (ResourceDriverInterface):
 
     def cleanup(self):
         pass

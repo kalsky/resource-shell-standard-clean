@@ -29,7 +29,7 @@
                  <source>src</source>
             </sources>
             <!-- the driver name of the driver to update -->
-            <targetName>{{cookiecutter.project_pascal_name}}Driver</targetName>
+            <targetName>{{cookiecutter.driver_name}}</targetName>
         </driver>
     </drivers>
 

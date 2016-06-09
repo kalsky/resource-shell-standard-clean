@@ -4,3 +4,4 @@ shell:
     email: {{cookiecutter.email}}
     description: {{cookiecutter.project_short_description}}
     version: {{cookiecutter.version}}
+    driver_name: {{cookiecutter.driver_name}}

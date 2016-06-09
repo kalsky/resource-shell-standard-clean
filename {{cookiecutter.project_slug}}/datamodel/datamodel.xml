@@ -19,7 +19,7 @@
       <AttributeValues>
       </AttributeValues>
       <Models>
-        <ResourceModel Name="BaseShell" Description="" SupportsConcurrentCommands="true">
+        <ResourceModel Name="{{ cookiecutter.model_name }}" Description="" SupportsConcurrentCommands="true">
           <AttachedAttributes>
                <AttachedAttribute IsLocal="true" IsOverridable="true" Name="User">
               <AllowedValues />
@@ -35,7 +35,7 @@
           <ParentModels>
           </ParentModels>
           <Drivers>
-              <DriverName>BaseShell Driver</DriverName>
+              <DriverName>{{ cookiecutter.driver_name }}</DriverName>
           </Drivers>
           <Scripts />
         </ResourceModel>
@@ -44,6 +44,6 @@
     </ResourceFamily>
   </ResourceFamilies>
   <DriverDescriptors>
-      <DriverDescriptor Name="BaseShell Driver" DriverType="PythonDriver" />
+      <DriverDescriptor Name="{{ cookiecutter.driver_name }}" DriverType="PythonDriver" />
   </DriverDescriptors>
 </DataModelInfo>
