@@ -24,25 +24,3 @@ class {{cookiecutter.driver_name}} (ResourceDriverInterface):
         :param InitCommandContext context: the context the command runs on
         """
         pass
-
-    def example_function(self, context):
-        """
-        A simple example function
-        :param ResourceCommandContext context: the context the command runs on
-        """
-        pass
-
-    def example_function_with_params(self, context, user_param1, user_param2):
-        """
-        An example function that accepts two user parametesrs
-        :param ResourceCommandContext context: the context the command runs on
-        :param str user_param1: A user parameter
-        :param str user_param2: A user parameter
-        """
-        pass
-
-    def _helper_function(self):
-        """
-        Private functions are always hidden, and will not be exposed to the end user
-        """
-        pass
